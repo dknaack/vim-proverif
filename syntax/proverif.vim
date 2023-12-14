@@ -6,6 +6,7 @@ syn keyword proverifKeyword among axiom channel choice clauses const def diff
 			\ query reduc restriction secret select set suchthat sync table 
 			\ then type weaksecret yield
 
+syn match proverifKeyword /\<inj-event\>/
 syn region proverifComment start="(\*" end="\*)" contains=proverifComment
 
 hi def link proverifKeyword Keyword
